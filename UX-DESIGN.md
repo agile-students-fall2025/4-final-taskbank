@@ -81,8 +81,8 @@ User settings and application configuration options.
 
 ## Prototype
 
-View the interactive prototype: **[Taskbank Prototype Demo](https://www.figma.com/proto/IMakphR9J75eOJI6kk0aTl/taskbank-prototype?t=9B71qwC4CET95RKl-1&node-id=35-49&starting-point-node-id=35%3A49)**
+View the interactive prototype: **[Taskbank Prototype Demo](https://www.figma.com/proto/RfNdS7f4fiq21J9b9B0n2x/taskbank-proto?p=f&t=n63X99dfMQq0XCKw-0&starting-point-node-id=35%3A49)**
 
 This Figma prototype demonstrates the key user flows and interactions for the Taskbank application, including project management, task tracking, and user authentication.
 
-In case you need the prototype file itself, here is the **[link to Prototype figma file](https://www.figma.com/design/IMakphR9J75eOJI6kk0aTl/taskbank-prototype?node-id=0-1&t=0wSr5SkggOQa7ENd-1)**
+In case you need the prototype file itself, here is the **[link to Prototype figma file](https://www.figma.com/design/RfNdS7f4fiq21J9b9B0n2x/taskbank-proto?node-id=0-1&p=f&t=n63X99dfMQq0XCKw-0)**
