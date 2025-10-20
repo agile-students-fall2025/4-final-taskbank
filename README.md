@@ -29,13 +29,12 @@ Taskbank is designed for everyone who needs task management, but specifically ta
 
 ## Team Members
 
-- **[Arda Bakici](https://github.com/ArdaBakici)** 
+- **[Arda Bakici (Sprint 0 Product Owner)](https://github.com/ArdaBakici)** 
 - **[Siddhanta Paudel](https://github.com/PaudelSiddhanta)** 
-- **[Sihyun Kim](https://github.com/sihyunlkim)** 
+- **[Sihyun Kim (Sprint 0 Scrum Master)](https://github.com/sihyunlkim)** 
 - **[Srijan Sthapit](https://github.com/Srijan3141)** 
 - **[William Chan](https://github.com/wc2184)** 
 
-*Note: Please update the GitHub profile links above with actual usernames*
 
 ## Project History
 
