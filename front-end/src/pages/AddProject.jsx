@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "../css/dashboard.css";
 import "../css/forms.css";
-import logo from "../assets/logo.png";
+import DashboardHeader from "../components/DashboardHeader";
 
 export default function AddProject() {
   const navigate = useNavigate();
@@ -116,25 +116,16 @@ export default function AddProject() {
   };
 
   const handleCancel = () => {
-    navigate("/projects");
+    navigate(-1);
   };
 
   return (
     <div className="dashboard-container">
-      <header className="dashboard-header">
-        <h1>Taskbank</h1>
-        <div className="logo-box">
-          <img src={logo} alt="Logo" className="logo-image" />
-        </div>
-      </header>
+      <DashboardHeader />
 
       <main>
         <div className="dashboard-title-actions">
           <h2>Create New Project</h2>
-          <div className="dashboard-buttons">
-            <button onClick={handleCancel}>Cancel</button>
-            <button onClick={handleSubmit}>Save Project</button>
-          </div>
         </div>
 
         <div className="form-card">
@@ -236,6 +227,11 @@ export default function AddProject() {
                   </span>
                 )}
               </div>
+            </div>
+
+            <div className="dashboard-buttons">
+              <button onClick={handleCancel}>Cancel</button>
+              <button onClick={handleSubmit}>Save Project</button>
             </div>
           </form>
         </div>

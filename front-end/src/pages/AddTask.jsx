@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "../css/dashboard.css";
 import "../css/forms.css";
-import logo from "../assets/logo.png";
+import DashboardHeader from "../components/DashboardHeader";
 
 export default function AddTask() {
   const navigate = useNavigate();
@@ -94,25 +94,16 @@ export default function AddTask() {
   };
 
   const handleCancel = () => {
-    navigate("/tasks");
+    navigate(-1);
   };
 
   return (
     <div className="dashboard-container">
-      <header className="dashboard-header">
-        <h1>Taskbank</h1>
-        <div className="logo-box">
-          <img src={logo} alt="Logo" className="logo-image" />
-        </div>
-      </header>
+      <DashboardHeader />
 
       <main>
         <div className="dashboard-title-actions">
           <h2>Create New Task</h2>
-          <div className="dashboard-buttons">
-            <button onClick={handleCancel}>Cancel</button>
-            <button onClick={handleSubmit}>Save Task</button>
-          </div>
         </div>
 
         <div className="form-card">
@@ -227,6 +218,11 @@ export default function AddTask() {
                   placeholder="e.g., frontend, urgent, bug"
                 />
               </div>
+            </div>
+
+            <div className="dashboard-buttons">
+              <button onClick={handleCancel}>Cancel</button>
+              <button onClick={handleSubmit}>Save Task</button>
             </div>
           </form>
         </div>
